@@ -45,7 +45,7 @@ struct File* record_file(struct dirent* entr, char* path, enum file_type type) {
         file->type = FT_UNKNOWN;
     }
 
-    return file;
+    return files;
 }
 
 void sort_dir_entries(struct DataPool* dp) {
